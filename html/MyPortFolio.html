@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MPFstyle.css">
+    <link rel="stylesheet" href="..//css/bootstrap.min.css">
+    <link rel="stylesheet" href="media.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kalnia&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bgcolor">
+    <!-- header -->
+
+    <div class="container" style="height:100px;">
+        <div class="row">
+            <div class="col">
+                <div class="navbar navbar-expand-md fixed-top bgshadesofblue2">
+                    <a href="MyPortFolio.html" class="navbar-brand header ms-2 fw-bold fs-1 ms-5"
+                        style="color:#b1ddf1;">
+                        <img src="" alt="">&#9824&#120132
+                    </a>
+                    <button class="navbar-toggler btn btn-info ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav ms-auto fw-bold">
+                            <li class="nav-item active marginauto p-3">
+                                <a href="#about" class="txtdeconone lightblue">ABOUT ME</a>
+                            </li>
+                            <li class="nav-item marginauto p-3">
+                                <a href="#skills" class="txtdeconone lightblue"> SKILLS</a>
+                            </li>
+                            <li class="nav-item marginauto p-3">
+                                <a href="#project" class="txtdeconone lightblue"> PROJECTS</a>
+                            </li>
+                            <li class="nav-item marginauto p-3">
+                                <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><span
+                                            class="lightblue">CONTACT</span></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact offcanvas-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header bg-dark lightblue">
+            <h4 class="offcanvas-title" id="offcanvasRightLabel">Contact</h4>
+            <button type="button" class="btn-close bg-info" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bgshadesofblue font fs-5">
+            <form method="post">
+                <div class="row">
+                    <div class="col-10 ms-auto p-3">
+                        Fullname:
+                        <input type="text" name="fullname" placeholder="enter fullname">
+                    </div>
+                    <div class="col-10 ms-auto p-3">
+                        Email:
+                        <input type="email" name="email" placeholder="enter email" class="ms-auto">
+                    </div>
+                    <div class="col-10 ms-auto p-3">
+                        Mobile no.:
+                        <input type="number" name="mobileno.">
+                    </div>
+                    <div class="col-10 ms-auto p-3">
+                        Project Type:
+                        <select>
+                            <option value="front-end">Front-end</option>
+                            <option value="front-end">Back-end</option>
+                        </select>
+                    </div>
+                    <div class="col-10 p-3 ms-auto">
+                        <i class="fa-solid fa-phone fs-3" style="color: #ffffff;"></i> :
+                        <a href="tel:9117996473" class="txtdeconone lightblue">+91 9117996473</a>
+                    </div>
+                    <div class="col-10 p-3 ms-auto">
+                        <i class="fa-brands fa-square-google-plus fs-3" style="color: #ffffff;"></i> :
+                        <a href="mailto:kvibhanshu6@gmail.com"
+                            class="txtdeconone lightblue">kvibhanshu6@gmail.com</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- contact offcanvas -->
+
+    <div class="container text-white mt-5" style="height:auto;">
+        <div class="row ">
+            <div class="col-md-6 d-flex justify-content-center mb-5">
+                <div class="imageshape"><img src="images/myimage.jpg" alt=""
+                        style="height: 100%;  width: 100%;border-radius:25%; box-shadow: 0px 0px 35px 0px #b1ddf1;">
+                </div>
+            </div>
+
+            <div class="col  mt-5 d-flex-row justify-content-center text-white p-3">
+                <div class="">
+                    <h1 class="bio"><span class="lightblue">Welcome</span> to my portfolio</h1>
+                    <p class="txtjustify" style="font-size: 1.5em;">
+                        I am a passionate web developer works on
+                        <span id="element"></span>
+                    </p>
+                </div>
+                <div class="mt-5">
+                    <button class="CVbutton">Click Here for CV</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- header -->
+
+    <!-- About me -->
+    <div id="about"></div>
+    <div class="container margint">
+        <div class="row text-white">
+            <div class="col-12 lightblue">
+                <h1>About Me</h1>
+            </div>
+            <div class="col-12 txtjustify pt-3" style="font-size: 1.36em;">
+                Hi, i am Vibhanshu and I work as a fullstack web developer.I have done my graduation from JPU,Bihar in
+                English Honours and I have done six months internship in VSIT Coding institute, Dwarka as a front-end
+                and Back-end developer and have expertise in HTML, CSS, JS, React and more.I love to create amazing and
+                crafty websities.
+            </div>
+        </div>
+    </div>
+    <!-- About me -->
+
+    <!-- Skills -->
+    <div id="skills"></div>
+    <div class="container margint">
+        <div class="row ">
+            <div class="col-12 pb-3">
+                <h1 class="lightblue mb-5">
+                    Skills
+                </h1>
+            </div>
+            <div class="col-6 col-sm-4 col-md-3 p-2 txtcenter">
+                <i class="fa-brands fa-html5 " style="color: #b1ddf1;font-size:6em;"></i>
+                <p class="text-white fs-5"> HTML5 </p>
+            </div>
+            <div class="col-6  col-sm-4 col-md-3 p-2 txtcenter">
+                <i class="fa-brands fa-css3" style="color: #b1ddf1;font-size:6em;"></i>
+                <p class="text-white fs-5">CSS3</p>
+            </div>
+            <div class="col-6  col-sm-4 col-md-3 p-2 txtcenter">
+                <i class="fa-brands fa-bootstrap" style="color: #b1ddf1;font-size:6em;"></i>
+                <p class="text-white fs-5">Bootstrap</p>
+            </div>
+            <div class="col-6  col-sm-4 col-md-3 p-2 txtcenter">
+                <i class="fa-brands fa-js" style="color: #b1ddf1;font-size:6em;"></i>
+                <p class="text-white fs-5">JS</p>
+            </div>
+            <div class="col-6  col-sm-4 col-md-4 p-2  txtcenter">
+                <i class="fa-solid fa-database" style="color: #b1ddf1;font-size:6em;"></i>
+                <p class="text-white fs-5">MonogoDB</p>
+            </div>
+            <div class="col-6 col-sm-4 col-md-4 p-2  txtcenter">
+                <i class="fa-brands fa-node" style="color: #b1ddf1;font-size:6em;"></i>
+                <p class="text-white fs-5">NodeJS</p>
+            </div>
+            <div class="col-sm-4 col-md-4 p-2  txtcenter">
+                <i class="fa-brands fa-react" style="color: #b1ddf1;font-size:6em;"></i>
+                <p class="text-white fs-5">ReactJS</p>
+            </div>
+        </div>
+    </div>
+    <!-- Skills -->
+
+    <!-- My Projects -->
+    <div class="container margint">
+        <div class="row">
+            <div class="col-12 mb-4">
+                <h1 class="lightblue" id="project">Projects</h1>
+            </div>
+            <div class="col-md-6 mt-2 col-lg-4 font">
+                <div class="card w-100" style="height:17em;">
+                    <div class="card-body bglightblue">
+                        <h2 class="card-title">Leo Gym</h2>
+                        <p class="card-text fs-5 txtjustify">
+                            It's a front-end project about gym provided with seamless user interface and online
+                            supplement shopping experience.
+                        </p>
+                        <a href="#" class="card-link txtdeconone">Website link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-2 col-lg-4 font">
+                <div class="card w-100" style="height:17em;">
+                    <div class="card-body bglightblue">
+                        <h2 class="card-title">My Portfolio</h2>
+                        <p class="card-text fs-5 txtjustify">
+                            It's my portfolio website provided all essential details about me as a fullstack web
+                            developer.which gives an overview of my skills.
+                        </p>
+                        <a href="MyPortFolio.html" class="card-link txtdeconone">Website link</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-2 col-lg-4 font ">
+                <div class="card w-100" style="height:17em;">
+                    <div class="card-body bglightblue">
+                        <h2 class="card-title">Electronic Outlet</h2>
+                        <p class="card-text fs-5 txtjustify">It's a back-end project with simple user interface and easy
+                            to access provided a great online shopping experience of electrical appliances. </p>
+                        <a href="#" class="card-link txtdeconone">Website link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid mt-5">
+
+        <footer class="text-center bgshadesofblue">
+            <!-- Grid container -->
+            <div class="container">
+                <!-- Section: Social media -->
+                <section>
+                    <!-- Facebook -->
+                    <a class="btn btn-link btn-floating btn-lg  m-1" href="https://www.facebook.com/" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-facebook-f lightblue fs-3"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-link btn-floating btn-lg m-1" href="https://twitter.com/i/flow/login"
+                        role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter lightblue fs-3"></i></a>
+
+
+                    <!-- Instagram -->
+                    <a class="btn btn-link btn-floating btn-lg  m-1" href="https://www.instagram.com/" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-instagram lightblue fs-3"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-link btn-floating btn-lg m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-linkedin lightblue fs-3"></i></a>
+                    <!-- Github -->
+                    <a class="btn btn-link btn-floating btn-lg m-1" href="#!" role="button"
+                        data-mdb-ripple-color="dark"><i class="fab fa-github lightblue fs-3"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+        </footer>
+
+    </div>
+    <!-- footer -->
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
+</script>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['client and', 'server sides.'],
+        typeSpeed: 50,
+    });
+</script>
+
+</html>

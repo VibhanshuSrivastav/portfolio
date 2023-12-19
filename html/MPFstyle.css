@@ -1,0 +1,123 @@
+.bgcolor{
+    background-color:black;
+    background-image: url(images/bgbody.jpg);
+    background-size: 100% 100%;
+    font-family: 'Kalnia', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*######## common ##########*/
+.marginauto{
+    margin: auto;
+}
+.margint{
+    margin-top:100px;
+}
+
+.txtjustify{
+    text-align:justify;
+}
+.txtcenter{
+    text-align: center;
+}
+
+.font{
+    font-family:sans-serif;
+}
+
+.relative{
+    position:relative;
+    top: 100px;
+}
+
+.txtdeconone{
+    text-decoration: none;
+}
+/*######## common ##########*/
+
+/* ########## colors ############# */
+.bgshadesofblue2{
+    background-color:rgb(19, 19, 19);
+
+    color: #b1ddf1;
+
+}
+.bgshadesofblue{
+    background-color:black;
+    color:beige;
+
+
+}
+.bglightblue{
+    background-color: #b1ddf1;
+}
+.lightblue{
+    color:#b1ddf1;
+}
+
+/* ########## colors ############# */
+
+/* for animation */
+#element{
+    color:#b1ddf1;
+    
+}
+/* for animation */
+
+/* ######### header #############*/
+.CVbutton{
+background-color:#b1ddf1 ;
+width:100%;
+font-size:2em;
+border:1px solid;
+border-radius:50% 0%;
+}
+
+.CVbutton:hover{
+    background-color: aqua;
+    width: 99.9%;
+    font-size: 1.99em;
+}
+
+.imageshape{
+ border: 1.5em solid #b1ddf1;
+ padding:2.5em;
+ width:25em;
+ aspect-ratio: 1;
+ clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 91%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+
+ul li a:hover{
+    color: aqua;
+}
+/* ######### header #############*/
+
+/* card */
+.card{
+    width:22rem;
+    height:300px;
+}
+
+.card:hover {
+    
+	        animation: card-down 0.1s linear both;
+}
+
+  @keyframes card-down {
+    0% {
+              transform: scale(1);
+    }
+    100% {
+              transform: scale(0.98);
+    }
+  }
+
+
+  .card-body:hover{
+    background-color:aqua;
+  }
+  
+/* card */
